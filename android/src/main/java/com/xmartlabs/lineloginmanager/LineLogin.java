@@ -136,7 +136,7 @@ public class LineLogin extends ReactContextBaseJavaModule {
 
     private WritableMap parseAccessToken(LineAccessToken accessToken) {
         WritableMap result = Arguments.createMap();
-        result.putString("accessToken", accessToken.getAccessToken());
+        result.putString("accessToken", accessToken.getTokenString());
         result.putString("expirationDate", Long.toString(accessToken.getExpiresInMillis()));
         return result;
     }
