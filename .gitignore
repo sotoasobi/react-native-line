@@ -55,3 +55,6 @@ fastlane/screenshots
 # Cocoapods
 Pods/
 
+
+# Claude Code: per-user permission approvals. Never commit (may contain inline credentials).
+**/.claude/settings.local.json
